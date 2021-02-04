@@ -1,0 +1,232 @@
+.mainContainer {
+	width: 960px;
+	margin: auto;
+}
+.flex {
+	display: flex;
+}
+.flex-col {
+	flex-direction: column;
+}
+.flex-sb {
+	justify-content: space-between;
+}
+.flex-col-sb {
+	align-content: space-between;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Bebas Neue', cursive;
+}
+.header-alter {
+	color: #be3600;
+	margin-right: 5px;
+}
+.header-marginRight {
+	margin-right: 5px;
+}
+.header-marginLeft {
+	margin-left: 5px;
+}
+
+.header__topmenu {
+	height: 34px;
+	background-color: #ff6200;	
+	color: white;
+	font-size: 14.77pt;
+	padding: 5px;
+}
+.header__botmenu {
+	height: 109px;
+	background-color: #f9f9f9;	
+	font-size: 41.13pt;
+	color: #313131;
+	padding: 38px -6 33px 0;
+}
+.header__botmenu-alter {	
+	color: #ff6200;
+}
+
+header ul {
+	color: #333333;
+	font-size: 10pt;
+	font-family: 'myriad pro';
+	margin-right: 12px;
+	margin-top: 48px;
+	height: 26px;
+}
+header ul li {
+	display: inline-block;
+	margin-right: 14px;
+	padding-bottom: 5px;
+	width: 45px;
+}
+header ul li:hover {
+	border-bottom: 4px solid #ff6200;
+	font-weight: bold;
+	cursor: pointer;
+}
+.header__submenu {
+	position: relative;
+	font-family: 'myriad pro';
+	color: #333333;
+	font-size: 10pt;
+	border: 1px solid black;
+	background-color: white;
+	width: 99px;
+	height: 99px;
+	text-align: center;
+	padding: 5px;
+}
+.header__submenu div {
+	margin: auto;
+	padding: 6px;
+}
+.header__submenu div:hover {
+	font-weight: bold;
+}
+
+.header__submenu#submenu1 {
+	left: 69px;
+}
+.header__submenu#submenu2 {
+	left: 167px;
+	top: -40px;
+}
+
+section.breadcrumb {
+	margin-top: 45px;
+	margin-bottom: 40px;
+	font-family: 'ubuntu';
+	font-size: 14px;
+	font-color: #aaaaaa;
+}
+section.contact {
+	margin-bottom: 43px;
+}
+.contact__title {
+	font-family: 'open sans';
+	font-size: 25px;
+	color: #ff6200;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.contact__text {
+	font-family: 'ubuntu';
+	font-size: 14px;
+	color: #878787;
+	margin-bottom: 15px;
+}
+
+section.contactus {
+	width: 470px;
+}
+.contactus__title {
+	font-family: 'open sans';
+	font-size: 23px;
+	color: #ff6200;
+}
+.contactus__separator {
+	width: 470px; 
+	height: 6px;
+	background-color: #525252;
+	margin: 13px 0 19px;
+}
+.contactus__input {
+	margin-bottom: 10px;
+}
+.contactus__input-1 {
+	height: 32px;
+	width: 100%;
+	padding: 10px;
+	background-color: #f6f6f6;
+	border: 1px solid #ededed;
+	color: #878787;
+	margin: 0px;
+	font-family: 'ubuntu';
+	font-size: 14px;
+}
+.contactus__input-2 {
+	height: 32px;
+	width: 230px;
+	padding: 10px;
+	background-color: #f6f6f6;
+	border: 1px solid #ededed;
+	color: #878787;
+	margin: 0px;
+	font-family: 'ubuntu';
+	font-size: 14px;
+}
+.contactus__input-3 {
+	height: 109px;
+	width: 470px;
+	padding: 10px;
+	background-color: #f6f6f6;
+	border: 1px solid #ededed;
+	color: #878787;
+	margin: 0px;
+	font-family: 'ubuntu';
+	font-size: 14px;
+}
+.contactus__submit {
+	color: white;
+	background-color: #ff6200;
+	width:98px;
+	height: 37px;
+	text-align: center;
+	font-family: 'open sans';
+	font-weight: 700;
+	font-size: 10pt;
+	padding: 10px;
+	margin-top: 22px;
+}
+section.reachus {
+	width: 408px;
+	margin-right: 5px;
+}
+.reachus__title {
+	font-family: 'open sans';
+	font-size: 23px;
+	color: #ff6200;
+}
+.reachus__separator {
+	width: 408x; 
+	height: 6px;
+	background-color: #525252;
+	margin: 13px 0 19px;
+}
+.reachus__text {
+	font-family: 'myriad pro';
+	color: #595959;
+	height: 193px;
+}
+.reachus__text-1 {
+	font-size: 13pt;
+	margin-bottom: 5px;
+}
+.reachus__text-2 {
+	font-size: 11pt;
+	line-height: 15px;
+}
+.reachus__icon {
+	height: 32px;
+	width: 32px;
+	color: white;
+	padding: 7px 9px;
+	font-size: 12pt;
+	border: 1px solid #dddddd;
+	background-color: #d0d0d0;
+	text-align: center;
+	margin-right: 5px;
+}
+.reachus__icon:hover {
+	background-color: #363636;
+	cursor: pointer;
+	border-color: #6d6d6d;
+}
